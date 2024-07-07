@@ -5,7 +5,5 @@ The script uses BeautifulSoup to parse HTML content and extract details of event
 Run the script from the command line by specifying the URL of the event page
 
 ```
-
-python scrape_events_to_ics.py "https://www.meetup.com/Your-Meetup-Group/events/"
-
+python get_events.py "https://www.meetup.com/Your-Meetup-Group/events/"
 ```
