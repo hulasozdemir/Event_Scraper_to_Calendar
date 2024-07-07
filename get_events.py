@@ -11,7 +11,7 @@ def fetch_and_save_events(url):
     soup = BeautifulSoup(response.text, 'html.parser')
 
     cal = Calendar()
-    local_tz = timezone('America/Los_Angeles')  # Adjust timezone as needed
+    local_tz = timezone('America/Vancouver')  # Adjust timezone as needed
 
     for i in range(1, 10):  # Looping through 9 events as example
         base_selector = f'#event-card-e-{i} > div.flex.flex-col.space-y-5.overflow-hidden > div > div'
